@@ -8,29 +8,23 @@ class HomeController extends Controller
     {
         $destinasi = [
             (object)[
-                'slug'=>'balige',
-                'nama'=>'Balige',
+                'slug'=>'Tele',
+                'nama'=>'Tele',
                 'gambar'=>'balige.jpg',
                 'deskripsi'=>'Pusat wisata Danau Toba yang indah'
             ],
             (object)[
-                'slug'=>'meat',
-                'nama'=>'Meat',
-                'gambar'=>'meat.jpg',
-                'deskripsi'=>'Desa wisata tradisional di tepi danau'
+                'slug'=>'Efrata',
+                'nama'=>'Efrata',
+                'gambar'=>'Efrata.jpeg',
+                'deskripsi'=>'Air terjun di desa sihotang'
             ],
             (object)[
-                'slug'=>'liang-sipege',
-                'nama'=>'Liang Sipege',
+                'slug'=>'Sihotang',
+                'nama'=>'Sihotang',
                 'gambar'=>'liang.jpg',
-                'deskripsi'=>'Goa alami yang eksotis'
+                'deskripsi'=>'Desa dengan keindahan sewahnya'
             ],
-            (object)[
-                'slug'=>'batu-bahisan',
-                'nama'=>'Batu Bahisan',
-                'gambar'=>'batu.jpg',
-                'deskripsi'=>'Wisata batu unik dan instagramable'
-            ]
         ];
 
         return view('pages.home', compact('destinasi'));
